@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_view_text_color">#CCD4D7</color>
+    <color name="line_view">#58AAE4</color>
+    <color name="line_view_error">#d81e06</color>
+</resources>

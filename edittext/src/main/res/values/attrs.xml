@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义EditText-->
+    <declare-styleable name="CustomEditText"> <!-- name : 给自定义属性设置标示 ,一般都是给设置设置，写谁的名称-->
+        <attr name="icon_normal" format="reference" />
+        <attr name="icon_selected" format="reference" />
+        <attr name="eye_icon" format="reference" />
+        <attr name="hintText" format="string" />
+        <attr name="contents" format="string" />
+        <!--是否为密码形式-->
+        <attr name="isPassword" format="boolean" />
+        <!--是否可以下拉-->
+        <attr name="canDrop" format="boolean" />
+        <!--是否显示隐藏密码-->
+        <attr name="isEyeShow" format="boolean" />
+        <!--是否支持中文-->
+        <attr name="isSupportChinese" format="boolean" />
+        <!--是否可编辑-->
+        <attr name="isEditEnable" format="boolean" />
+        <!--是否显示删除按钮-->
+        <attr name="isDelShow" format="boolean" />
+        <!--左侧图标是否显示-->
+        <attr name="is_icon_show" format="boolean" />
+    </declare-styleable>
+</resources>

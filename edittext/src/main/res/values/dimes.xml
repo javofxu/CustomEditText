@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_view_margin">32dp</dimen>
+    <dimen name="login_view_height">44dp</dimen>
+    <dimen name="login_view_padding">16dp</dimen>
+    <dimen name="login_icon_right_margin">3dp</dimen>
+    <dimen name="login_view_text_size">13sp</dimen>
+    <dimen name="login_info_padding">32dp</dimen>
+    <dimen name="image_button_width">30dp</dimen>
+    <dimen name="login_edit_button_margin_right">6dp</dimen>
+    <dimen name="login_icon_edit_margin">16dp</dimen>
+    <dimen name="login_icon_info_margin">90dp</dimen>
+    <dimen name="login_edit_text_height">44dp</dimen>
+    <dimen name="btn_forget_pwd_register_text_size">14sp</dimen>
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="edit_text_margin">16dp</dimen>
+    <dimen name="edit_btn_margin">40dp</dimen>
+    <dimen name="login_view_radius">4dp</dimen>
+    <dimen name="login_view_stroke">1dp</dimen>
+</resources>
