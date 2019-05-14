@@ -1,13 +1,16 @@
 # CustomEditText
 自定义输入框
 
-allprojects {
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  dependencies {
+Step 2. Add the dependency
+
+	dependencies {
 	        implementation 'com.github.javofxu:CustomEditText:v1.0'
 	}
