@@ -52,7 +52,7 @@ public class CustomEditText extends RelativeLayout implements View.OnFocusChange
     private boolean isEditEnable;
     private boolean isDelShow;
 
-    private ImageButton mDeleteBtn;
+    private ImageView mDeleteBtn;
 
     //输入表情前EditText中的文本
     private String inputAfterText;
@@ -70,7 +70,7 @@ public class CustomEditText extends RelativeLayout implements View.OnFocusChange
 
     private boolean isIconShow;
     private boolean isDismiss;
-    private ImageButton mErrorBtn;
+    private ImageView mErrorBtn;
     private CheckBox mEyeBtn;
 
 
@@ -93,8 +93,8 @@ public class CustomEditText extends RelativeLayout implements View.OnFocusChange
         this.context = context;
         init(context);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CustomEditText);
-        iconNormalId = typedArray.getResourceId(R.styleable.CustomEditText_icon_normal, R.mipmap.delete_icon);
-        iconSelectedId = typedArray.getResourceId(R.styleable.CustomEditText_icon_selected, R.mipmap.delete_icon);
+        iconNormalId = typedArray.getResourceId(R.styleable.CustomEditText_icon_normal, R.mipmap.people);
+        iconSelectedId = typedArray.getResourceId(R.styleable.CustomEditText_icon_selected, R.mipmap.people);
         hintText = typedArray.getString(R.styleable.CustomEditText_hintText);
         content = typedArray.getString(R.styleable.CustomEditText_contents);
         isPassword = typedArray.getBoolean(R.styleable.CustomEditText_isPassword, false);
@@ -117,9 +117,9 @@ public class CustomEditText extends RelativeLayout implements View.OnFocusChange
         mRootView = (RelativeLayout) findViewById(R.id.custom_root_view);
         mIcon = (ImageView) findViewById(R.id.custom_icon);
         mContent = (EditText) findViewById(R.id.custom_edit);
-        mDeleteBtn = (ImageButton) findViewById(R.id.custom_delete_btn);
+        mDeleteBtn = (ImageView)findViewById(R.id.custom_delete_btn);
         mDropArrow = (CheckBox) findViewById(R.id.custom_drop_arrow);
-        mErrorBtn = (ImageButton) findViewById(R.id.custom_error_btn);
+        mErrorBtn = (ImageView) findViewById(R.id.custom_error_btn);
         mEyeBtn = (CheckBox) findViewById(R.id.custom_eye);
         mContent.setOnFocusChangeListener(this);
         mContent.addTextChangedListener(this);
