@@ -63,17 +63,16 @@
 
             <CheckBox
                 android:id="@+id/custom_eye"
-                android:layout_width="@dimen/image_button_width"
+                android:layout_width="52dp"
                 android:layout_height="match_parent"
-                android:button="@drawable/eye_icon"
-                android:visibility="gone" />
+                android:button="@drawable/eye_icon" />
 
             <CheckBox
                 android:id="@+id/custom_drop_arrow"
                 android:layout_width="@dimen/image_button_width"
                 android:layout_height="match_parent"
                 android:button="@drawable/arrow_icon"
-                android:visibility="visible" />
+                android:visibility="gone" />
 
         </FrameLayout>
 
