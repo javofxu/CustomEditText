@@ -7,15 +7,16 @@
 
     <ImageView
         android:id="@+id/custom_icon"
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="@dimen/login_view_padding" />
+        android:src="@mipmap/people"
+        android:layout_marginLeft="10dp" />
 
     <EditText
         android:id="@+id/custom_edit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:layout_marginLeft="@dimen/login_icon_edit_margin"
         android:layout_toLeftOf="@+id/operation"
@@ -33,14 +34,15 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingRight="@dimen/login_icon_right_margin">
 
 
         <ImageView
             android:id="@+id/custom_delete_btn"
-            android:layout_width="@dimen/image_button_width"
-            android:layout_height="match_parent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/login_edit_button_margin_right"
@@ -59,12 +61,14 @@
 
         <FrameLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp">
 
             <CheckBox
                 android:id="@+id/custom_eye"
-                android:layout_width="52dp"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:button="@drawable/eye_icon" />
 
             <CheckBox
@@ -72,6 +76,7 @@
                 android:layout_width="@dimen/image_button_width"
                 android:layout_height="match_parent"
                 android:button="@drawable/arrow_icon"
+                android:layout_gravity="center"
                 android:visibility="gone" />
 
         </FrameLayout>
